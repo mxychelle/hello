@@ -1,0 +1,215 @@
+@charset "UTF-8";
+html{
+	background-color: white;
+		top:0;
+}
+
+body{
+	width=100%;
+}
+
+.w3-container{
+	position: fixed;
+	width:100%;
+	height:200px;
+	color:white;
+	top:0;
+    background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,.9));
+}
+
+.container{
+    width: auto;
+    height: 100%;
+    margin: 30px;
+
+}
+
+.open{
+	position:fixed;
+	font-size:30px;
+	top:20px;
+	z-index: 100;
+	right:4%;
+	margin-right: auto;
+	alignment-baseline: baseline;
+	
+}
+.overlay {
+  height: 100%;
+  width: 30%;
+  display: none;
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  right: 0;
+  /*background-color: #EBEBEB;*/
+  background-image: linear-gradient(to right, rgba(255,255,255,.8), rgba(150,150,150,1));
+	
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+	
+}
+
+.overlay-content img{
+	width:150px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #8B8B8B;
+	
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+a:link{
+	text-decoration-line: none;
+	color:black;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover, a:active{
+  text-decoration-line: none;  
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+#header {
+    color: black;
+    text-align: left;
+	font-size: 90px;
+    border-bottom: 2px solid black;
+    z-index: 2000;
+    position: fixed;
+    top: 20px;
+    transition: .5s;
+}
+
+.nav {
+    z-index: 3000;
+	width: 87%;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    position: fixed;
+	top:20px;
+	right:80px;
+	margin-right:1%;
+}
+
+.intro {
+    text-align: left;
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+	margin-bottom:250px;
+}
+
+.intro img{
+	width:5%;
+	border-bottom: 2px solid black;
+	z-index:1000;
+	
+}
+
+/*PROJECT ICONS*/
+img.sticky {
+	position: sticky;
+    top: 45px;
+	bottom: 5rem;
+    width: 240px;
+	z-index: 2001;
+	padding-bottom: 50px;
+}
+/*PROJECT HEADER IMAGES*/
+img.project{
+	width: 100%;
+	position: static;
+	margin-top: 0px;
+	display: inline-block;
+}
+	
+	
+
+
+/*PROJECT TEXTS*/
+a.projectName {
+    position: static;
+    font-size: 30px;
+    top: 20px;
+	margin-top: 30 px;
+	margin-bottom: 100 px;
+}
+p.senses{
+    position: relative;
+    font-size: 20px;
+	float:right;
+	text-align: right;
+	margin:auto;
+}
+.container-fluid {
+  display:inline-block;
+  background-color:;  
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(200,220,250,1));
+  position: static;
+  bottom: 0;
+  color: black;
+  width:auto;
+}
+
+.outro-links{
+	font-size: 25px;
+	font-family: "Dia";
+	margin: inherit;
+}
+.outro{
+	font-size: 30px;
+	font-family: "Dia";
+	padding-left: 60px;
+	padding-top: 150px;
+	padding-bottom: 30px;
+	padding-right: 400px;
+}
+
+/*---------------------------------- CONTACT PAGE SPECIFIC-------------------------------------*/
+img.studiopic{
+	width:50%;
+	position:relative;
+	top: 10em;	
+}
+
+h1{margin-top:100px;}
