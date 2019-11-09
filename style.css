@@ -205,7 +205,7 @@ p.senses{
 	padding-right: 400px;
 }
 
-/*---------------------------------- CONTACT PAGE SPECIFIC-------------------------------------*/
+/*------------------------------------------------- CONTACT PAGE SPECIFIC-------------------------------------------------*/
 img.studiopic{
 	width:50%;
 	position:relative;
@@ -213,3 +213,45 @@ img.studiopic{
 }
 
 h1{margin-top:100px;}
+
+/*----------------------------------------------------- PROJECT PAGE ----------------------------------------------------*/
+
+.projectlead{
+	width: 93.3%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	margin-top: 5%;
+		
+}
+
+.projectImages{text-align: center;}
+
+p.projectDescrip {
+    position:static;
+    font-size: 30px;
+    top: 20px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: left;
+}
+
+img.projectHorizontal {
+	position: static;
+	width: 70%;
+	margin-top: 30px;
+	vertical-align: middle;
+		
+}
+
+img.projectVertical {
+	position: static;
+	width: 50%;
+	margin-top: 30px;
+		
+}
+
+	
